@@ -59,3 +59,21 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+## Installation guide
+
+Get a clone from integration branch.
+
+composer update.
+
+Configure env file with database credentials, email smtp configuration and google api key.
+
+run php artisan migrate
+
+setup a seperate virtual host for the project or just run php artisan serve.
+
+You will see the home page with a welcome animation.
+
+client registartion and login : click the top right corner registration or login button to register or login as a client
+
+admin registration and login : follow this url to register as an admin. -> {{baseurl}}/admin/registration
